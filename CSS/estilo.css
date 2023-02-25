@@ -1,0 +1,118 @@
+*
+{
+	margin: 0;
+	padding: 0;
+}
+
+body
+{
+	background: #D1D7DC;
+	font-family: "Trebuchet MS", Helvetica, sans-serif;
+	font-size: 1em;
+}
+
+/*
+***layout***
+*/
+#menu{
+	background: #0B99FF ;
+	padding: 10px;
+	text-align: center;
+
+}
+
+#menu-logo,#menu-opções{
+	padding: 10px;
+}
+.conteudo-lat{
+	background: white;
+	margin-bottom: 20px;
+	padding: 10px;
+	
+
+
+}
+
+.post-recentes{
+	font-size: 0.8em;
+		padding: 5px;
+		
+}
+#conteudo{
+	
+	width: 920px;/*este tamanho é padrão entre dispositivos*/
+	margin: 0 auto;
+	padding: 15px;
+
+}
+
+#post{
+		width: 660px;
+		float: left;
+}
+#post-lateral{
+		width: 240px;
+		float: right;
+		
+
+}	
+
+#rodape{
+	background: #CCC;
+	text-align: center;
+	padding: 10px;
+	clear: both;
+}
+.postagem{
+	padding: 20px;
+	margin-bottom: 20px;
+	background: white;
+}
+
+.datapost{
+	font-size: 0.8em;
+	border-bottom: 1px solid #f4f4f4;
+	padding-bottom: 10px;
+	display: block;
+	margin-bottom: 10px;
+}
+/*
+***Geral***
+*/
+h1 {
+	font-size: 2,5em;
+}
+h2{
+	color: #26FE31;
+}
+	h3{
+		background: #ccc;
+		color: #565656;
+		padding: 5px;
+	}
+.verde{
+	color: #26FE31;
+}
+.branco{
+	color: white;
+}
+a{
+	text-decoration: underline;
+}
+#menu-opções a:link, #menu-opções a:visited{
+	color:#FFF;
+	padding: 8px 10px;
+	text-decoration: none;
+}
+#menu-opções a:hover{
+	color: #26FE31;
+	background: #FFF;
+}
+
+a:link, a:visited{
+	color: #26FE31;
+	text-decoration: none;
+}
+a:hover{
+text-decoration: underline;
+}
